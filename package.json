@@ -1,0 +1,24 @@
+{
+  "name": "lets-code-testes-automatizados",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaquelaurenti/lets-code-testes-automatizados.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaquelaurenti/lets-code-testes-automatizados/issues"
+  },
+  "homepage": "https://github.com/Jaquelaurenti/lets-code-testes-automatizados#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "cucumber": "^6.0.7"
+  }
+}
