@@ -1,4 +1,5 @@
 // primeira coisa importar o index
+const { expect } = require('chai');
 const index = require('../index');
 
 // describe: é a descrição do conteúdo que será testado
@@ -22,7 +23,14 @@ describe('Aplicando os testes em index.JS', () => {
     expect(result).toEqual('Não é possível dividir por 0')
   });
 
-
   // CONSTRUIR Substração, MULTIPLICAO 
+  test('Aplicar a função de subtração e obter 7', () => {
+    const result = index.subtracao(14,7);
+    expect(result).toEqual(7)
+  });
 
+  test('Aplicar a função de multiplicação e obter 64', ()=> {
+    const result = index.multiplicar(32,2);
+    expect(result).toEqual(64)
+  });
 })
